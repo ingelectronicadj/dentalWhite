@@ -167,7 +167,7 @@
                  $('.number').each(function() {
                      var $this = $(this),
                          num = $this.data('number');
-                     console.log(num);
+                     //console.log(num);
                      $this.animateNumber({
                          number: num,
                          numberStep: comma_separator_number_step
