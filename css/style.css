@@ -10542,16 +10542,16 @@ h5,
 
 .services .icon span {
     font-size: 50px;
-    background: #2f89fc;
-    background: -moz-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #2f89fc), color-stop(100%, #2cbcbc));
-    background: -webkit-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-    background: -o-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-    background: -ms-linear-gradient(-45deg, #2f89fc 0%, #2cbcbc 100%);
-    background: -webkit-linear-gradient(315deg, #2f89fc 0%, #2cbcbc 100%);
-    background: -o-linear-gradient(315deg, #2f89fc 0%, #2cbcbc 100%);
-    background: linear-gradient(135deg, #2f89fc 0%, #2cbcbc 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2f89fc', endColorstr='#00dc94', GradientType=1);
+    background: #953080;
+    background: -moz-linear-gradient(-45deg, #953080 0%, #2cbcbc 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #953080), color-stop(100%, #2cbcbc));
+    background: -webkit-linear-gradient(-45deg, #953080 0%, #2cbcbc 100%);
+    background: -o-linear-gradient(-45deg, #953080 0%, #2cbcbc 100%);
+    background: -ms-linear-gradient(-45deg, #953080 0%, #2cbcbc 100%);
+    background: -webkit-linear-gradient(315deg, #953080 0%, #2cbcbc 100%);
+    background: -o-linear-gradient(315deg, #953080 0%, #2cbcbc 100%);
+    background: linear-gradient(135deg, #953080 0%, #2cbcbc 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#953080', endColorstr='#00dc94', GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -10563,17 +10563,17 @@ h5,
 .about-wrap {
     width: 100%;
     padding: 30px;
-    color: rgba(255, 255, 255, 0.9);
-    background: #CAC3D2;
-    background: -moz-linear-gradient(-45deg, #CAC3D2 0%, #962F7E 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #CAC3D2), color-stop(100%, #962F7E));
-    background: -webkit-linear-gradient(-45deg, #CAC3D2 0%, #962F7E 100%);
-    background: -o-linear-gradient(-45deg, #CAC3D2 0%, #962F7E 100%);
-    background: -ms-linear-gradient(-45deg, #CAC3D2 0%, #962F7E 100%);
-    background: -webkit-linear-gradient(315deg, #CAC3D2 0%, #962F7E 100%);
-    background: -o-linear-gradient(315deg, #CAC3D2 0%, #962F7E 100%);
-    background: linear-gradient(135deg, #CAC3D2 0%, #962F7E 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#CAC3D2', endColorstr='#00dc94', GradientType=1);
+    color: rgba(0, 0, 0, 0.9);
+    background: #E4DEE8;
+    background: -moz-linear-gradient(-45deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #E4DEE8), color-stop(100%, #CAC3D2));
+    background: -webkit-linear-gradient(-45deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: -o-linear-gradient(-45deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: -ms-linear-gradient(-45deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: -webkit-linear-gradient(315deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: -o-linear-gradient(315deg, #E4DEE8 0%, #CAC3D2 100%);
+    background: linear-gradient(90deg, #E4DEE8 0%, #CAC3D2 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#E4DEE8', endColorstr='#00dc94', GradientType=1);
 }
 
 @media (min-width: 768px) {
@@ -10609,7 +10609,7 @@ h5,
     width: 60px;
     height: 60px;
     content: '';
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #953080;
     z-index: -1;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -10622,7 +10622,7 @@ h5,
 }
 
 .about-wrap .list-services .icon span {
-    color: #fff;
+    color: #953080;
     font-size: 30px;
 }
 
@@ -10633,7 +10633,7 @@ h5,
 
 .about-wrap .list-services .text h3 {
     font-size: 20px;
-    color: #fff;
+    color: #953080;
 }
 
 .about-wrap .list-services:hover .icon:after,
@@ -11175,7 +11175,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-    padding: 7em 0;
+    padding: 3em 0;
     position: relative;
 }
 
@@ -11465,13 +11465,13 @@ textarea.form-control {
 
 .heading-section.heading-section-white h2 {
     font-size: 30px;
-    background: #fff;
+    background: #953080;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .heading-section.heading-section-white p {
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(0, 0, 0, 0.95);
 }
 
 .img,
