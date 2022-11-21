@@ -489,21 +489,21 @@
                     <div class="heading-section mb-5 ftco-animate">
                         <h2 class="mb-2">Obtenga una cotización gratuita</h2>
                     </div>
-                    <form action="#" class="ftco-animate">
+                    <form class="ftco-animate" action="https://formsubmit.co/info@dwbycarlosrodriguez.co" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nombre completo">
+                                    <input type="text" name="nombre" class="form-control" placeholder="Nombre completo">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                    <input type="email" name="email" class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Teléfono celular">
+                                    <input type="tel" name="tel" class="form-control" placeholder="Teléfono celular">
                                 </div>
                             </div>
                             <!--<div class="col-md-6">
@@ -513,7 +513,7 @@
                             </div>-->
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+                                    <textarea name="mensaje" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">
@@ -522,6 +522,10 @@
                                 </div>
                             </div>
                         </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="¡Mensaje importante! - www">
+                        <input type="hidden" name="_template" value="box">
+                        <input type="hidden" name="_next" value="https://dwbycarlosrodriguez.co/">
                     </form>
                 </div>
             </div>
