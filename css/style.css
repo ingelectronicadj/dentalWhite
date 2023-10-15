@@ -12704,11 +12704,12 @@ textarea.form-control {
 }
 
 .slider-item .container .col-md-8{
-    margin-top: 30%;
+    margin-top: 25%;
 }
 @media screen and (max-width:425px) {
-    .slider-item .container .col-md-8{
-        margin-top: 25%;
+    .slider-item,
+    .elfsight-app-f1046fde-1181-4ea8-a579-d97af449da40{
+        display: none;
     }
   }
   
