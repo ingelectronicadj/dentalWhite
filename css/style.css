@@ -4351,7 +4351,7 @@ input[type="button"].btn-block {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .navbar>.container,
@@ -9740,12 +9740,6 @@ h5,
     z-index: 3;
 }
 
-@media (min-width: 992px) {
-    .ftco-navbar-light {
-        padding: 15px 0;
-    }
-}
-
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
         background: #fff !important;
@@ -11125,7 +11119,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-    padding: 3em 0;
+    padding: 3.3em 0;
     position: relative;
 }
 
@@ -12688,4 +12682,12 @@ textarea.form-control {
     visibility: visible;
     transition: 1s;
 }
-  
+
+/* Ajuste a imagenes */
+.logo {
+    width: 150px;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
