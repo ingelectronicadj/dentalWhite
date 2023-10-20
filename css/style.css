@@ -10090,7 +10090,7 @@ h5,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 700px;
+    height: 100vh;
     position: relative;
 }
 
@@ -10107,7 +10107,7 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text {
     color: #fff;
-    height: 700px;
+    height: 100vh;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -11027,12 +11027,12 @@ textarea.form-control {
 
 .ftco-vh-75 {
     height: 75vh;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
 @media (max-width: 1199.98px) {
     .ftco-vh-75 {
-        min-height: 700px;
+        min-height: 100vh;
         height: inherit;
         padding-top: 5em;
         padding-bottom: 5em;
