@@ -12663,6 +12663,23 @@ textarea.form-control {
     outline-offset: 2px !important;
 }
 
+/* Whatsapp boton */
+.btn-whatsapp {
+    position: fixed;
+    opacity: 0;
+    bottom: 30px;
+    left: 30px;
+    z-index: 10;
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: bottom .4s, transform .4s;
+}
+
 /* Boton para volver arriba */
 .scroll-up {
     position: fixed;
@@ -12670,8 +12687,8 @@ textarea.form-control {
     bottom: 30px;
     right: 30px;
     z-index: 10;
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     border-radius: 4px;
     background-color: #955184;
     backdrop-filter: saturate(180%) blur(20px);
@@ -12682,7 +12699,7 @@ textarea.form-control {
     overflow: hidden;
     transition: bottom .4s, transform .4s;
 }
-.scroll-up:hover {
+.scroll-up:hover, .btn-whatsapp:hover {
     transform: translateY(-.5rem);
 }
 .showScrollUp{
@@ -12699,3 +12716,4 @@ textarea.form-control {
     max-width: 100%;
     height: auto;
 }
+
