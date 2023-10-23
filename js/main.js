@@ -284,27 +284,3 @@
 
 
  })(jQuery);
-
- /* Corregir el scroll vertical de las tablets y telefonos */
- let startY = null; // Declarar startY en un ámbito más amplio
-
- document.body.addEventListener('touchstart', function(e) {
-     // Captura el evento de inicio de toque
-     startY = e.touches[0].clientY;
- });
- 
- document.body.addEventListener('touchmove', function(e) {
-     if (startY === null) return; // Sal del evento si startY no está definido
- 
-     // Captura el evento de movimiento táctil
-     var deltaY = e.touches[0].clientY - startY;
- 
-     // Si el desplazamiento es vertical, no previene el comportamiento predeterminado
-     if (Math.abs(deltaY) > 10) {
-         e.preventDefault();
-     }
- 
-     // Restablece startY para futuros toques
-     startY = null;
- });
- 

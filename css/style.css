@@ -10103,6 +10103,7 @@ h5,
     content: '';
     background: #000;
     opacity: .2;
+    overflow-y: auto;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
