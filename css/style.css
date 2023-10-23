@@ -10092,6 +10092,7 @@ h5,
     background-position: center center;
     height: 100vh;
     position: relative;
+    overflow-y: auto;
 }
 
 .owl-carousel.home-slider .slider-item .overlay {
@@ -10109,6 +10110,7 @@ h5,
 .owl-carousel.home-slider .slider-item .slider-text {
     color: #fff;
     height: 100vh;
+    overflow-y: auto;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
@@ -10117,6 +10119,7 @@ h5,
     line-height: 1.2;
     font-weight: 400;
     text-shadow: 1px 1px 2px #953080;
+    overflow-y: auto;
 }
 
 @media (max-width: 991.98px) {
