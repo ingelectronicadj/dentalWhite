@@ -12643,9 +12643,9 @@ textarea.form-control {
     margin-top: 25%;
 }
 @media screen and (max-width:425px) {
-    .slider-item{
+    /* .slider-item{
         display: none;
-    }
+    } */
     .ftco-navbar-light .navbar-nav>.nav-item.active>a,
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link,
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
